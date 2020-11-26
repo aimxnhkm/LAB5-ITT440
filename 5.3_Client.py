@@ -11,7 +11,7 @@ s.connect(('192.168.1.13', port))
 data = s.recv(1024)
 data = data.decode("utf-8")
 
-s.send(b'Tank you from client!');
+s.send(b'Thank you from client!');
 
 dataJ = json.loads(data)
 
