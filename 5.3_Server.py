@@ -6,7 +6,7 @@ mydata = {"id": 2020960269, "name": "Aiman", "age": "21"}
 sendData = json.dumps(mydata)
 
 s = socket.socket()
-print("Socket successfully created")
+print("Socket uccessfully created")
 
 port = 8080
 
