@@ -12,7 +12,7 @@ try:
 except socket.error as e:
 	print(str(e))
 
-print('Waiting for a Connection...')
+print('Waiting for a Connection..')
 ServerSocket.listen(5)
 
 def threaded_client(connection):
