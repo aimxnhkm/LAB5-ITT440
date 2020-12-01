@@ -4,7 +4,7 @@ from _thread import *
 
 ServerSocket = socket.socket()
 host = ''
-port = 8003
+port = 8001
 ThreadCount = 0
 
 try:
