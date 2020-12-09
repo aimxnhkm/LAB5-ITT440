@@ -2,10 +2,10 @@ import socket
 import os
 import sys
 
-ServerIP = "192.168.1.8"
+ServerIP = "192.168.1.12"
 
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-PORT = 8005
+PORT = 8888
 
 s.connect((ServerIP, PORT))
 
